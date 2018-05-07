@@ -18,7 +18,8 @@ $packageArgs = @{
   # Cygwin $env:TEMP is C:\tools\cygwin\tmp\chocolatey
   # Powershell $env:TEMP is C:\Users\tanner\AppData\Local\Temp
   #
-  silentArgs     = "/qn /norestart /l*v `"$($env:TEMP)\$($packageName).log`""
+  #silentArgs     = "/qn /norestart /l*v `"$($env:TEMP)\$($packageName).log`""
+  silentArgs     = "/s /v`"/qb/norestart`""
   validExitCodes = @(0, 3010, 1641)
 }
 
