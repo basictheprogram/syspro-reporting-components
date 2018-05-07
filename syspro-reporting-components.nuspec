@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>syspro7-eporting-components</id>
-    <version>7.00.0016</version>
+    <version>7.00.0000</version>
     <packageSourceUrl>https://github.com/basictheprogram/chocolatey-syspro-reporting-components</packageSourceUrl>
     <owners>Real Time Support</owners>
     <title>SYSPRO 7 Reporting Components</title>
@@ -29,7 +29,7 @@
          https://docs.nuget.org/create/versioning#specifying-version-ranges-in-.nuspec-files -->
     <dependencies>
       <!-- Crystal Reports 2010 Runtime  -->
-      <dependency id="syspro-reporting-components" />
+      <dependency id="crystalreports2010runtime" />
     </dependencies>
   </metadata>
   <files>
