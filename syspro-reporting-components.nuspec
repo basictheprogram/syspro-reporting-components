@@ -1,17 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
-<<<<<<< HEAD
-    <id>syspro7-eporting-components</id>
-=======
     <id>syspro7-reporting-components</id>
->>>>>>> bb1096305a132f6d80bb17dfd23869426a100d51
     <version>7.00.0000</version>
     <packageSourceUrl>https://github.com/basictheprogram/chocolatey-syspro-reporting-components</packageSourceUrl>
     <owners>Real Time Support</owners>
     <title>SYSPRO 7 Reporting Components</title>
     <authors>SYSPRO, SYSPRO USA</authors>
-    <iconUrl>http://cdn.rawgit.com/basictheprogram/chocolatey-syspro-reporting-components/master/icons/syspro.png</iconUrl>
+    <iconUrl>http://cdn.rawgit.com/basictheprogram/syspro-reporting-components/master/icons/syspro.png</iconUrl>
     <copyright>Copyright © 1994-2012</copyright>
     <licenseUrl>http://cdn.rawgit.com/basictheprogram/chocolatey-syspro-reporting-components/master/tools/LICENSES.txt</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
