@@ -30,6 +30,8 @@
     <dependencies>
       <!-- Crystal Reports 2010 Runtime  -->
       <dependency id="crystalreports2010runtime" />
+      <!-- Java Runtime (JRE) -->
+      <dependency id="javaruntime" />
     </dependencies>
   </metadata>
   <files>
