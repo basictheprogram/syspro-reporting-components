@@ -6,8 +6,8 @@ $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 $packageArgs = @{
     packageName  = $env:ChocolateyPackageName
-    fileType     = 'exe'
-    silentArgs   = "/S /v/qn"
+    fileType     = 'msi'
+    silentArgs   = "/qn /norestart"
     url          = $data.url
     checksum     = $data.checksum
     checksumType = $data.checksumType
